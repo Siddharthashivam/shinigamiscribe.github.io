@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddhartha's Portfolio - Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand cosmic-glow user-name" href="index.html">Siddhartha</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admin.html">Edit</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container main-content py-5">
+        <div class="row">
+            <div class="col-lg-12 mb-4">
+                <div class="content-section">
+                    <h1 class="section-title">Contact Me</h1>
+                    <p class="lead">Interested in working together or have questions? Feel free to reach out!</p>
+                    
+                    <div class="row mt-4">
+                        <div class="col-md-6 mb-4">
+                            <form id="contact-form">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Your Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter your name" style="background-color: var(--cosmic-dark); color: var(--text-primary); border: 1px solid var(--cosmic-accent);">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter your email" style="background-color: var(--cosmic-dark); color: var(--text-primary); border: 1px solid var(--cosmic-accent);">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <input type="text" class="form-control" id="subject" placeholder="Enter subject" style="background-color: var(--cosmic-dark); color: var(--text-primary); border: 1px solid var(--cosmic-accent);">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" style="background-color: var(--cosmic-dark); color: var(--text-primary); border: 1px solid var(--cosmic-accent);"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-custom">Send Message</button>
+                            </form>
+                        </div>
+                        
+                        <div class="col-md-6 mb-4">
+                            <div class="h-100 d-flex flex-column justify-content-between">
+                                <div>
+                                    <h3 class="mb-4">Connect With Me</h3>
+                                    
+                                    <div class="mb-3 d-flex align-items-center">
+                                        <div class="me-3">
+                                            <i class="fas fa-envelope fa-2x" style="color: var(--accent-color);"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-0">Email</h5>
+                                            <p class="mb-0" id="contact-email">contact@siddhartha-portfolio.com</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="mb-3 d-flex align-items-center">
+                                        <div class="me-3">
+                                            <i class="fab fa-linkedin fa-2x" style="color: var(--accent-color);"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-0">LinkedIn</h5>
+                                            <p class="mb-0" id="contact-linkedin">linkedin.com/in/siddhartha</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="mb-3 d-flex align-items-center">
+                                        <div class="me-3">
+                                            <i class="fab fa-github fa-2x" style="color: var(--accent-color);"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="mb-0">GitHub</h5>
+                                            <p class="mb-0" id="contact-github">github.com/siddhartha</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="mt-4">
+                                    <h4>Response Time</h4>
+                                    <p>I typically respond to messages within 24-48 hours. Looking forward to connecting with you!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="mt-3 mb-0">© 2025 <span class="user-name">Siddhartha</span>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            // Simple validation
+            if (!name || !email || !message) {
+                alert('Please fill in all required fields.');
+                return;
+            }
+            
+            // In a real application, you would send this data to your backend
+            // For now, we'll just show a success message
+            alert('Thank you for your message! I will get back to you soon.');
+            
+            // Clear the form
+            this.reset();
+        });
+    </script>
+</body>
+</html>
